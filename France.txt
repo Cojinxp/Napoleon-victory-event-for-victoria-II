@@ -1,0 +1,58 @@
+country_event = {
+    id = 100802
+    title = "EVTNAME100802"
+    desc = "EVTDESC100802"
+    picture = statuto_albertino
+    major = yes
+    news = yes
+    news_desc_long = "EVTDESCId_NEWS_LONG"
+    news_desc_medium = "EVTDESCId_NEWS_MEDIUM"
+    news_desc_short = "EVTDESCId_NEWS_SHORT"
+    is_triggered_only = yes
+    
+    trigger = {
+        tag = FRA
+        exists = BEL  
+        exists = NET
+        exist = MOR
+        exist = EGY
+        exists = SPA
+        exists = LUX
+        exists = SAR   
+        exist = SIC
+        exists = RUS
+    }
+    in_sphere = BEL   
+    in_sphere = NET
+    in_sphere = MOR 
+    in_sphere = EGY
+    in_sphere = SPA 
+    in_sphere = LUX
+    in_sphere = SAR
+    in_sphere = SIC 
+    in_sphere = RUS
+
+    mean_time_to_happen = {
+        months = 1
+    
+        
+    }
+    option = {
+        name = "EVTOPTA100802"
+        prestige = 100
+        inherit = BEL  
+        inherit = NET
+        inherit = MOR
+        inherit = EGY
+        inherit = SPA 
+        inherit = LUX 
+        inherit = SAR
+        inherit = SIC
+        inherit = RUS
+        release  = POL
+        
+    }
+    
+        
+    }
+}
